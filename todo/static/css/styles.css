@@ -1,0 +1,206 @@
+
+  
+  .App {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .TodoWrapper {
+    background-color: #252525;
+    margin-top: 50px;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  
+  .TodoForm {
+    width: 100%;
+  }
+  
+  .todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid #8758ff;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: #fff;
+    margin-right: 0;
+  }
+  
+  .todo-input::placeholder {
+    color: #ffffff4d;
+  }
+  
+  .todo-btn {
+    margin-left: 0;
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+    
+  }
+  
+  .Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+  }
+
+  .Todo:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .scr{
+    overflow-y:scroll;
+  }
+  .scr::-webkit-scrollbar {
+    width: 8px;
+  }
+  .scr::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  .scr::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+  }
+  .scr::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  .fa-trash {
+    margin-left: 0.75rem;
+    transition: all 0.2s ease;
+  }
+
+  .fa-trash:hover {
+    color: #ff4757;
+    transform: scale(1.2);
+  }
+  
+  .completed {
+    color: #a8e6cf;
+    text-decoration: line-through;
+    opacity: 0.8;
+  }
+
+  .todo-btn:hover {
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px #8758ff;
+  }
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  padding: 5px 8px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+a:hover {
+  transform: scale(1.15);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Icon-specific colors */
+.fa-check-circle {
+  color: #4ade80;
+  transition: all 0.3s ease;
+}
+
+.fa-check-circle:hover {
+  color: #22c55e;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+}
+
+.fa-circle {
+  color: #fbbf24;
+  transition: all 0.3s ease;
+}
+
+.fa-circle:hover {
+  color: #f59e0b;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px rgba(251, 191, 36, 0.5);
+}
+
+.fa-pen-to-square {
+  color: #60a5fa;
+  transition: all 0.3s ease;
+}
+
+.fa-pen-to-square:hover {
+  color: #3b82f6;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px rgba(96, 165, 250, 0.5);
+}
+
+.todo-green {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: #764ba2;
+  box-shadow: 0 4px 15px rgba(118, 75, 162, 0.4);
+}
+
+.todo-green:hover {
+  box-shadow: 0 6px 20px rgba(118, 75, 162, 0.6);
+}
+
+.todo-red {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  border-color: #f5576c;
+  box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+}
+
+.todo-red:hover {
+  box-shadow: 0 6px 20px rgba(245, 87, 108, 0.6);
+}
+
+.anca{
+  font-size: 25px;
+    margin-top: 7px;
+    margin-right: -41px;
+    transition: all 0.3s ease;
+}
+
+.anca:hover {
+  transform: scale(1.1);
+  color: #ffd700;
+}
+
+.heads{
+  display: flex;
+    justify-content: space-evenly;
+}
